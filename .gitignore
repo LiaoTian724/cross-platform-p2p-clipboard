@@ -12,8 +12,8 @@ logs/
 *.lnk
 *.zip
 
-# The copied Mac project inside the Windows folder is a duplicate.
-/p2p-clipboard_windows/P2PClipboard_mac/
+# A copied Mac project inside the Windows folder would be a duplicate.
+/windows/P2PClipboard_mac/
 
 # Locally generated keys and credentials
 *.pem

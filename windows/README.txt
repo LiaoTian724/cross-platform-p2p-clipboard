@@ -1,6 +1,6 @@
 ﻿P2P Clipboard - Windows
 
-启动：双击本目录的“P2P Clipboard.exe”或“启动 P2P Clipboard.lnk”。
+启动：双击本目录的“P2P Clipboard.exe”。
 打开后自动等待 NetBird 地址 100.64.79.70，并监听 100.64.79.70:55515。
 
 状态窗口和系统托盘菜单显示：
@@ -19,15 +19,14 @@
 
 Windows 软件启动后，在 Mac 打开 /Applications/P2P Clipboard.app。
 Mac 应连接 Windows 100.64.79.70:55515，Windows Peer ID 为：
-12D3KooWLF8kaRr1Gg84RFAiDhLnwHk23rM9ASkuyYcqqiBZU46r
-Windows 识别的 Mac Peer ID 来自 P2PClipboard_mac 的运行日志：
+12D3KooWLF8kaRr1Gg84RFAiDhLnwHk23rM9ASkuyYcqXXXXXXXX
+Windows 识别的 Mac Peer ID 配置在 scripts\P2PClipboardApp.cs：
 12D3KooWBgMhRLxRLAcQPZjiJAjVJoLDY3ankxxN1jTXLok1hRtK
 如果 Mac 的身份变化，连接会显示为“已连接其他设备”，最近事件会列出新 Peer ID。
 连接后用一段纯文本在两台设备间分别复制粘贴，验证双向同步。
 
 bin：Windows 核心程序。scripts：管理脚本、界面源代码和图标。
 logs：普通/错误日志及实时状态。data：临时数据。
-P2PClipboard_mac：用于参考的 Mac 版本。
 status.cmd：命令行查看状态。stop.cmd：完全退出 Windows 软件和核心。
-如果移动整个文件夹，双击“创建启动快捷方式.cmd”更新快捷方式。
-所有项目文件、日志和运行数据保存在当前 F 盘项目目录。
+移动整个 Windows 文件夹后仍可直接双击“P2P Clipboard.exe”启动。
+所有项目文件、日志和运行数据保存在当前 Windows 文件夹。
