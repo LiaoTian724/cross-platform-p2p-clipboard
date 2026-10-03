@@ -1,0 +1,22 @@
+# Local build outputs and runtime data
+.DS_Store
+.AppleDouble
+__MACOSX/
+.build/
+app/
+logs/
+**/logs/
+**/data/
+*.log
+*.pid
+*.lnk
+*.zip
+
+# The copied Mac project inside the Windows folder is a duplicate.
+/p2p-clipboard_windows/P2PClipboard_mac/
+
+# Locally generated keys and credentials
+*.pem
+*.key
+.env
+.env.*
